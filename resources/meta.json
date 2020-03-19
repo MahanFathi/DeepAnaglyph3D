@@ -1,0 +1,113 @@
+{
+    "objects":
+    [
+        {
+            "name": "room",
+            "path_to_json": "./resources/configs/room.json",
+            "scale": 0.5,
+            "rotation_y": 1.0,
+            "translation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        {
+            "name": "cube",
+            "path_to_json": "./resources/configs/cube.json",
+            "scale": 0.5,
+            "rotation_y": 2.0,
+            "translation": {
+                "x": -3.0,
+                "y":  0.0,
+                "z":  2.0
+            }
+        },
+        {
+            "name": "sphere",
+            "path_to_json": "./resources/configs/sphere.json",
+            "scale": 0.5,
+            "rotation_y": 1.0,
+            "translation": {
+                "x":  4.0,
+                "y":  0.0,
+                "z":  4.0
+            }
+        },
+        {
+            "name": "cone",
+            "path_to_json": "./resources/cone.json",
+            "scale": 0.5,
+            "rotation_y": 2.0,
+            "translation": {
+                "x":  3.0,
+                "y":  0.0,
+                "z": -6.0
+            }
+        }
+    ],
+
+    "lighting":
+    {
+        "point_lights":
+        [
+            {
+                "position": {
+                    "x": -5.0,
+                    "y":  5.0,
+                    "z":  5.0
+                },
+                "color": {
+                    "r": 20,
+                    "g": 20,
+                    "b": 20
+                }
+            },
+            {
+                "position": {
+                    "x":  5.0,
+                    "y":  5.0,
+                    "z":  5.0
+                },
+                "color": {
+                    "r": 20,
+                    "g": 20,
+                    "b": 20
+                }
+            }
+        ],
+
+        "directional_light":
+        {
+            "direction": {
+                "x":  5.0,
+                "y": -10.0,
+                "z":  1.0
+            },
+            "color": {
+                "r": 255,
+                "g": 255,
+                "b": 255
+            }
+        }
+    },
+
+    "camera":
+    {
+        "position": {
+            "x":  3.9,
+            "y":  2.0,
+            "z": -9.0
+        },
+        "target": {
+            "x":  0.0,
+            "y":  0.0,
+            "z":  0.0
+        },
+        "perspective": {
+            "field_of_view": 60.0,
+            "near_plane": 0.1,
+            "far_plane": 1000.0
+        }
+    }
+}
