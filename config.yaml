@@ -1,6 +1,6 @@
 MODEL:
-  META_ARCHITECTURE: 'ConvDeconv'
+  ARCH: "FConv"
   DEVICE: "cuda"
-DATASETS:
+DATASET:
   FACTORY: "objet"
   PATH_TO_JSON: "./resources/ps_meta.json"

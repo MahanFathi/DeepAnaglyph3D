@@ -1,4 +1,7 @@
+import argparse
+
 from config import get_cfg_defaults
+from model import build_model
 from data import build_dataset
 
 def main():
@@ -32,6 +35,7 @@ def main():
     cfg.merge_from_list(args.opts)
     cfg.freeze()
 
+    model, optimizer = build_model(cfg)
     dataset = build_dataset(cfg)
 
 

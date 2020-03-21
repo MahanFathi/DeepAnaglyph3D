@@ -10,7 +10,7 @@ _C = CN()
 # Model Configs
 # ---------------------------------------------------------------------------- #
 _C.MODEL = CN()
-_C.MODEL.META_ARCHITECTURE = 'ConvDeconv'
+_C.MODEL.ARCH = 'FConv'
 _C.MODEL.DEVICE = "cuda"
 _C.MODEL.WEIGHTS = ""
 
@@ -21,6 +21,13 @@ _C.DATASET = CN()
 _C.DATASET.FACTORY = 'objet'
 _C.DATASET.PATH_TO_JSON = "./resources/ps_meta.json"
 _C.DATASET.NUM_WORKERS = 1
+
+
+# ---------------------------------------------------------------------------- #
+# Optimizer
+# ---------------------------------------------------------------------------- #
+_C.OPTIMIZER = CN()
+_C.OPTIMIZER.LR = 0.001
 
 
 def get_cfg_defaults():

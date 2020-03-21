@@ -13,7 +13,7 @@ def objet(cfg):
             tf.int32,
             tf.int32,
         ),
-        output_shape=(
+        output_shapes=(
             (settings.WIDTH, settings.HEIGHT, 3),
             (settings.WIDTH, settings.HEIGHT, 3),
         ),
