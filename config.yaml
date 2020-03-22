@@ -5,3 +5,5 @@ DATASET:
   FACTORY: "objet"
   PATH_TO_JSON: "./resources/ps_meta.json"
   BATCH_SIZE: 2
+OPTIMIZER:
+  LR: 0.001

@@ -50,7 +50,7 @@ class Env(object):
         )
         self.objet.draw()
         img = self.objet.get_image()
-        return img
+        return img / 255.
 
 
     def get_right_image(self, ):

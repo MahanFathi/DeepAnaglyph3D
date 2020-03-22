@@ -31,6 +31,15 @@ _C.OPTIMIZER = CN()
 _C.OPTIMIZER.LR = 0.001
 
 
+# ---------------------------------------------------------------------------- #
+# Logger
+# ---------------------------------------------------------------------------- #
+_C.LOGGER = CN()
+_C.LOGGER.TB_PERIOD = 10
+_C.LOGGER.TB_OUTPUT_DIR = 'logs/tensorboard/'
+
+
+
 def get_cfg_defaults():
     """Get a yacs CfgNode object with default values for my_project."""
     # Return a clone so that the defaults will not be altered
