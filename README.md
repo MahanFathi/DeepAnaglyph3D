@@ -4,7 +4,7 @@ End-to-end generation of good old red-cyan 3D images via CNNs.
 
 ### Setup & Usage
 
-Install [[github:MahanFathi/OBJET][pyobjet]]:
+Install [pyobjet](github:MahanFathi/OBJET):
 
 ``` sh
 git clone https://github.com/MahanFathi/OBJET.git 
