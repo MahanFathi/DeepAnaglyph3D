@@ -20,3 +20,4 @@ class BaseOptimizer(object):
         self.optimizer.apply_gradients(
             zip(grads, self.model.trainable_variables)
         )
+        return loss

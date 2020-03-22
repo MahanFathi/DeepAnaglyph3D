@@ -4,3 +4,4 @@ MODEL:
 DATASET:
   FACTORY: "objet"
   PATH_TO_JSON: "./resources/ps_meta.json"
+  BATCH_SIZE: 2

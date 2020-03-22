@@ -10,8 +10,8 @@ def objet(cfg):
     dataset = tf.data.Dataset.from_generator(
         data_generator_factory(cfg),
         output_types=(
-            tf.int32,
-            tf.int32,
+            tf.float32,
+            tf.float32,
         ),
         output_shapes=(
             (settings.WIDTH, settings.HEIGHT, 3),
