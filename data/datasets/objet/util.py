@@ -3,6 +3,7 @@ import numpy as np
 
 from pyobjet import Objet
 from stereoscopy import create_anaglyph
+from PIL import Image
 
 from data.datasets.objet import settings
 

@@ -35,7 +35,7 @@ def data_generator_factory(cfg):
             self.env.set_cam(theta)
             image = self.env.get_image()
             anaglyph = self.env.get_anaglyph()
-            return img, anaglyph
+            return image, anaglyph
 
     return DataGenerator
 
