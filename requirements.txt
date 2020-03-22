@@ -1,0 +1,5 @@
+yacs
+numpy
+Pillow
+tensorflow==2.1.0
+stereoscopy==2.0.1
