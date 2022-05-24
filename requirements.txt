@@ -1,5 +1,5 @@
 yacs
 numpy
 Pillow
-tensorflow==2.1.0
+tensorflow==2.6.4
 stereoscopy==2.0.1
